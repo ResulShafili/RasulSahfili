@@ -10,7 +10,7 @@ export const profile = {
   roles: [
     'AI training · evaluating multimodal model responses',
     'Data analysis · SQL, Python and clean datasets',
-    'Full-stack web · React, Node.js, PostgreSQL',
+    'Web · HTML, CSS and JavaScript',
     'Computer Engineering student · Karabakh University',
   ],
 
@@ -27,7 +27,7 @@ export const profile = {
       out: [
         [{ t: '◆ ', fill: 'cyan' }, { t: 'AI training  ', fill: 'text' }, { t: 'evaluating and ranking model responses on image and video', fill: 'muted' }],
         [{ t: '◆ ', fill: 'violet' }, { t: 'Data         ', fill: 'text' }, { t: 'cleaning and structuring data, analysis with SQL and Python', fill: 'muted' }],
-        [{ t: '◆ ', fill: 'pink' }, { t: 'Web          ', fill: 'text' }, { t: 'full-stack apps with React, Node.js, Express and PostgreSQL', fill: 'muted' }],
+        [{ t: '◆ ', fill: 'pink' }, { t: 'Web          ', fill: 'text' }, { t: 'web pages with HTML, CSS and JavaScript', fill: 'muted' }],
       ],
     },
     {
@@ -43,11 +43,11 @@ export const profile = {
   stack: [
     {
       label: 'LANGUAGES',
-      items: [['Python', '#4b8bbe'], ['C#', '#a179dc'], ['C++', '#659ad2'], ['JavaScript', '#f7df1e'], ['SQL', '#f29111'], ['Luau', '#00a2ff']],
+      items: [['Python', '#4b8bbe'], ['C#', '#a179dc'], ['C++', '#659ad2'], ['SQL', '#f29111'], ['Luau', '#00a2ff']],
     },
     {
       label: 'WEB',
-      items: [['React', '#61dafb'], ['Tailwind CSS', '#38bdf8'], ['Vite', '#bd34fe'], ['Node.js', '#5fa04e'], ['Express', '#e6edf7'], ['HTML & CSS', '#e34f26']],
+      items: [['HTML', '#e34f26'], ['CSS', '#4f8bff'], ['JavaScript', '#f7df1e']],
     },
     {
       label: 'DATA',
@@ -62,7 +62,7 @@ export const profile = {
   projects: [
     {
       id: 'fightbase',
-      kicker: 'FULL-STACK PLATFORM',
+      kicker: 'MMA PLATFORM',
       name: 'FightBase',
       status: { label: 'SOURCE PRIVATE', live: false },
       desc: ['Verified MMA fighter profiles, fight records, rankings,', 'challenges and real-time notifications.'],
@@ -81,17 +81,6 @@ export const profile = {
       link: { href: 'https://edu-rate-nu.vercel.app', text: 'edu-rate-nu.vercel.app' },
       motif: 'leaderboard',
       accent: ['#a78bfa', '#22d3ee'],
-    },
-    {
-      id: 'almajaz',
-      kicker: 'EMERGENCY RESPONSE',
-      name: 'Al-Majaz',
-      status: { label: 'LIVE', live: true },
-      desc: ['Flood and emergency response dashboard for the', 'Al-Majaz district of Sharjah, UAE, on a live map.'],
-      tags: ['React', 'TypeScript', 'Mapbox GL', 'FastAPI'],
-      link: { href: 'https://uae-project-steel.vercel.app', text: 'uae-project-steel.vercel.app' },
-      motif: 'radar',
-      accent: ['#34d399', '#22d3ee'],
     },
   ],
 };
