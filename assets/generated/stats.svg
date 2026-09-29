@@ -115,11 +115,11 @@
       <rect x="910" y="341" width="190" height="6" rx="3" fill="#131c33"/>
       <rect class="g-lang" x="910" y="341" width="25.8" height="6" rx="3" fill="#f1e05a" style="animation-delay:1.4s"/>
     </g><g class="g-in" style="animation-delay:1.3s">
-      <circle cx="765" cy="371" r="5" fill="#2b9016"/>
+      <circle cx="765" cy="371" r="5" fill="#7f63e0"/>
       <text class="mono " x="778 786.4" y="376" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">C#</tspan></text>
       <text class="mono" x="1160" y="376" text-anchor="end" font-size="14" fill="#94a3b8">3.0%</text>
       <rect x="910" y="367" width="190" height="6" rx="3" fill="#131c33"/>
-      <rect class="g-lang" x="910" y="367" width="14" height="6" rx="3" fill="#2b9016" style="animation-delay:1.5s"/>
+      <rect class="g-lang" x="910" y="367" width="14" height="6" rx="3" fill="#7f63e0" style="animation-delay:1.5s"/>
     </g>
   
   <path d="M23,1 H1177 A22,22 0 0 1 1199,23 V417 A22,22 0 0 1 1177,439 H23 A22,22 0 0 1 1,417 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="#1f2a44" stroke-width="1.5"/>
