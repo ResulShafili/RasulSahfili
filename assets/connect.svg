@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-labelledby="title desc">
+<title id="title">Let's connect</title>
+<desc id="desc">Connect with Rasul Shafili on LinkedIn: linkedin.com/in/rasul-shafili</desc>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+.c-beam{stroke-dashoffset:0;animation:c-run 9s linear infinite}
+  @keyframes c-run{to{stroke-dashoffset:-2754.2}}
+  .c-w{animation:c-w 12s linear infinite}
+  .c-w2{animation-duration:18s;animation-direction:reverse}
+  @keyframes c-w{to{transform:translateX(-1200px)}}
+  .c-in{animation:c-in .7s ease-out both}
+  @keyframes c-in{from{opacity:0;transform:translateY(10px)}}
+  .c-shine{animation:c-shine 3.5s ease-in-out 1s infinite}
+  @keyframes c-shine{0%{transform:translateX(-160px) skewX(-20deg)}50%,100%{transform:translateX(548.4px) skewX(-20deg)}}
+  .c-halo{transform-box:fill-box;transform-origin:center;animation:c-halo 2.4s ease-out infinite}
+  @keyframes c-halo{from{transform:scale(1);opacity:.55}to{transform:scale(1.12,1.5);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="c-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1224"/><stop offset="1" stop-color="#060913"/>
+  </linearGradient>
+  <radialGradient id="c-glowA" cx="0" cy="0" r="1">
+    <stop offset="0" stop-color="#60a5fa" stop-opacity=".18"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="c-glowB" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#f472b6" stop-opacity=".14"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="c-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".05"/>
+  </pattern>
+  <linearGradient id="c-beamA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="200">
+    <stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#f472b6"/>
+  </linearGradient>
+  <clipPath id="c-clip"><path d="M23,1 H1177 A22,22 0 0 1 1199,23 V177 A22,22 0 0 1 1177,199 H23 A22,22 0 0 1 1,177 V23 A22,22 0 0 1 23,1 Z"/></clipPath>
+  <linearGradient id="c-btn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a66c2"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <linearGradient id="c-shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="c-btnclip"><rect x="767.6" y="66" width="388.4" height="68" rx="34"/></clipPath></defs>
+<path d="M23,1 H1177 A22,22 0 0 1 1199,23 V177 A22,22 0 0 1 1177,199 H23 A22,22 0 0 1 1,177 V23 A22,22 0 0 1 23,1 Z" fill="url(#c-bg)"/>
+  <g clip-path="url(#c-clip)">
+    <rect width="1200" height="200" fill="url(#c-dots)"/>
+    <rect width="1200" height="200" fill="url(#c-glowA)"/>
+    <rect width="1200" height="200" fill="url(#c-glowB)"/>
+  </g>
+  <g clip-path="url(#c-clip)" fill="none">
+    <path class="c-w" d="M0,168 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0 q50,10 100,0 q50,-10 100,0" stroke="#22d3ee" stroke-opacity=".25" stroke-width="1.5"/>
+    <path class="c-w c-w2" d="M0,176 q75,-14 150,0 q75,14 150,0 q75,-14 150,0 q75,14 150,0 q75,-14 150,0 q75,14 150,0 q75,-14 150,0 q75,14 150,0 q75,-14 150,0 q75,14 150,0 q75,-14 150,0 q75,14 150,0 q75,-14 150,0 q75,14 150,0 q75,-14 150,0 q75,14 150,0 q75,-14 150,0" stroke="#f472b6" stroke-opacity=".2" stroke-width="1.5"/>
+    <path class="c-w" d="M0,186 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0 q37.5,6 75,0 q37.5,-6 75,0" stroke="#a78bfa" stroke-opacity=".25" stroke-width="1.5" style="animation-duration:9s"/>
+  </g>
+  <text class="sans c-in" x="48" y="90" font-size="40" font-weight="800" fill="#e6edf7">Let's connect</text>
+  <text class="sans c-in" x="48" y="128" font-size="20" fill="#94a3b8" style="animation-delay:.15s">Say hi on LinkedIn, or have a look around my repositories.</text>
+  <g class="c-in" style="animation-delay:.3s">
+    <rect class="c-halo" x="767.6" y="66" width="388.4" height="68" rx="34" fill="none" stroke="#0a66c2" stroke-width="2"/>
+    <rect x="767.6" y="66" width="388.4" height="68" rx="34" fill="url(#c-btn)"/>
+    <g clip-path="url(#c-btnclip)"><rect class="c-shine" x="767.6" y="66" width="90" height="68" fill="url(#c-shine)"/></g>
+    <rect x="787.6" y="82" width="36" height="36" rx="8" fill="#fff"/>
+    <text class="sans" x="805.6" y="109" text-anchor="middle" font-size="24" font-weight="800" fill="#0a66c2">in</text>
+    <text class="mono " x="839.6 849.2 858.8 868.4 878 887.6 897.2 906.8 916.4 926 935.6 945.2 954.8 964.4 974 983.6 993.2 1002.8 1012.4 1022 1031.6 1041.2 1050.8 1060.4 1070 1079.6 1089.2 1098.8 1108.4" y="106" font-size="16" xml:space="preserve" ><tspan fill="#fff" font-weight="700">linkedin.com/in/rasul-shafili</tspan></text>
+  </g>
+  
+  <path d="M23,1 H1177 A22,22 0 0 1 1199,23 V177 A22,22 0 0 1 1177,199 H23 A22,22 0 0 1 1,177 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="#1f2a44" stroke-width="1.5"/>
+  <path class="c-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V177 A22,22 0 0 1 1177,199 H23 A22,22 0 0 1 1,177 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#c-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="440.7 2313.5" style="animation-delay:0s"/>
+  <path class="c-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V177 A22,22 0 0 1 1177,199 H23 A22,22 0 0 1 1,177 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#c-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="440.7 2313.5" style="animation-delay:-4.5s" opacity=".7"/>
+</svg>

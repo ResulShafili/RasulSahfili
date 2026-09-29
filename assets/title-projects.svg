@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="84" viewBox="0 0 1200 84" role="img" aria-labelledby="title desc">
+<title id="title">Projects</title>
+<desc id="desc">Section: Projects</desc>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+.st-in{animation:st-in .6s ease-out both}
+  @keyframes st-in{from{opacity:0;transform:translateX(-16px)}}
+  .st-under{stroke-dasharray:60 400;animation:st-under 3.2s ease-in-out infinite}
+  @keyframes st-under{from{stroke-dashoffset:60}to{stroke-dashoffset:-400}}
+  .st-dot{animation:st-dot 4s ease-in-out infinite}
+  @keyframes st-dot{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(896px);opacity:0}}
+  .st-blink{animation:st-blink 1s steps(1) infinite}
+  @keyframes st-blink{50%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="st-text" gradientUnits="userSpaceOnUse" x1="90" y1="0" x2="234" y2="0">
+    <stop offset="0" stop-color="#0891b2"/><stop offset="1" stop-color="#db2777"/>
+  </linearGradient>
+  <linearGradient id="st-g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+  </linearGradient>
+  <linearGradient id="st-fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity=".6"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient></defs>
+<g class="st-in">
+    <rect x="20" y="22" width="52" height="40" rx="10" fill="#0891b2" fill-opacity=".12" stroke="#0891b2" stroke-opacity=".6"/>
+    <text class="mono" x="46" y="48" text-anchor="middle" font-size="16" font-weight="700" fill="#0891b2">02</text>
+    <text class="mono " x="90 108 126 144 162 180 198 216" y="54" font-size="30" xml:space="preserve" letter-spacing="0"><tspan fill="url(#st-text)" font-weight="800">PROJECTS</tspan></text>
+    <rect class="st-blink" x="244" y="30" width="14" height="28" rx="2" fill="#db2777"/>
+  </g>
+  <line x1="90" y1="70" x2="234" y2="70" stroke="#1f2a44" stroke-width="3" stroke-linecap="round"/>
+  <line class="st-under" x1="90" y1="70" x2="234" y2="70" stroke="url(#st-g)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="278" y1="44" x2="1180" y2="44" stroke="url(#st-fade)" stroke-width="1.5"/>
+  <circle class="st-dot" cx="278" cy="44" r="3.5" fill="#22d3ee"/>
+</svg>

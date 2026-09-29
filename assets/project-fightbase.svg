@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">FightBase</title>
+<desc id="desc">FightBase: Verified MMA fighter profiles, fight records, rankings, challenges and real-time notifications. Built with React, Vite, Express, Prisma, PostgreSQL, Socket.IO.</desc>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+.p-beam{stroke-dashoffset:0;animation:p-run 10s linear infinite}
+  @keyframes p-run{to{stroke-dashoffset:-2954.2}}
+      .m-rot{transform-origin:194px 150px;animation:m-spin 30s linear infinite}
+      .m-rot2{transform-origin:194px 150px;animation:m-spin 20s linear infinite reverse}
+      @keyframes m-spin{to{transform:rotate(360deg)}}
+      .m-wave{transform-origin:194px 150px;animation:m-wave 2.6s ease-out infinite}
+      @keyframes m-wave{from{transform:scale(.2);opacity:.7}to{transform:scale(1.25);opacity:0}}
+      .m-ecg{stroke-dasharray:180 420;animation:m-ecg 2.2s linear infinite}
+      @keyframes m-ecg{from{stroke-dashoffset:180}to{stroke-dashoffset:-420}}
+  .p-in{animation:p-in .6s ease-out both}
+  @keyframes p-in{from{opacity:0;transform:translateY(10px)}}
+  .p-live{transform-box:fill-box;transform-origin:center;animation:p-live 1.6s ease-out infinite}
+  @keyframes p-live{from{transform:scale(1);opacity:.8}to{transform:scale(3);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="p-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1224"/><stop offset="1" stop-color="#060913"/>
+  </linearGradient>
+  <radialGradient id="p-glowA" cx="0" cy="0" r="1">
+    <stop offset="0" stop-color="#f87171" stop-opacity=".18"/><stop offset="1" stop-color="#f87171" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="p-glowB" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#fbbf24" stop-opacity=".14"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="p-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".05"/>
+  </pattern>
+  <linearGradient id="p-beamA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="300">
+    <stop offset="0" stop-color="#f87171"/><stop offset="1" stop-color="#fbbf24"/>
+  </linearGradient>
+  <clipPath id="p-clip"><path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z"/></clipPath>
+  <linearGradient id="p-name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="520" y2="0" spreadMethod="repeat">
+    <stop offset="0" stop-color="#e6edf7"/><stop offset=".4" stop-color="#e6edf7"/><stop offset=".5" stop-color="#fbbf24"/><stop offset=".6" stop-color="#e6edf7"/><stop offset="1" stop-color="#e6edf7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="520 0" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="p-art" cx=".5" cy=".5" r=".7"><stop offset="0" stop-color="#f87171" stop-opacity=".16"/><stop offset="1" stop-color="#f87171" stop-opacity="0"/></radialGradient>
+  <clipPath id="p-artclip"><rect x="24" y="24" width="340" height="252" rx="16"/></clipPath></defs>
+<path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="url(#p-bg)"/>
+  <g clip-path="url(#p-clip)">
+    <rect width="1200" height="300" fill="url(#p-dots)"/>
+    <rect width="1200" height="300" fill="url(#p-glowA)"/>
+    <rect width="1200" height="300" fill="url(#p-glowB)"/>
+  </g>
+  <rect x="24" y="24" width="340" height="252" rx="16" fill="#060913" fill-opacity=".6" stroke="#1f2a44"/>
+  <rect x="24" y="24" width="340" height="252" rx="16" fill="url(#p-art)"/>
+  <g clip-path="url(#p-artclip)">
+      <circle class="m-wave" cx="194" cy="150" r="90" fill="none" stroke="#f87171" stroke-width="2"/>
+      <circle class="m-wave" cx="194" cy="150" r="90" fill="none" stroke="#fbbf24" stroke-width="1.5" style="animation-delay:-1.3s"/>
+      <g class="m-rot"><polygon points="282.7,186.7 230.7,238.7 157.3,238.7 105.3,186.7 105.3,113.3 157.3,61.3 230.7,61.3 282.7,113.3" fill="none" stroke="#f87171" stroke-width="2.5" stroke-opacity=".85"/>
+        <circle cx="282.7" cy="186.7" r="4" fill="#fbbf24"/><circle cx="230.7" cy="238.7" r="4" fill="#fbbf24"/><circle cx="157.3" cy="238.7" r="4" fill="#fbbf24"/><circle cx="105.3" cy="186.7" r="4" fill="#fbbf24"/><circle cx="105.3" cy="113.3" r="4" fill="#fbbf24"/><circle cx="157.3" cy="61.3" r="4" fill="#fbbf24"/><circle cx="230.7" cy="61.3" r="4" fill="#fbbf24"/><circle cx="282.7" cy="113.3" r="4" fill="#fbbf24"/></g>
+      <g class="m-rot2"><polygon points="264,150 243.5,199.5 194,220 144.5,199.5 124,150 144.5,100.5 194,80 243.5,100.5" fill="#f87171" fill-opacity=".06" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6 6"/></g>
+      <path d="M44,150 H120 l10,-10 l8,10 H150 l8,-52 l12,92 l10,-58 l6,18 H236 l10,-12 l10,12 H344" fill="none" stroke="#1f2a44" stroke-width="2"/>
+      <path class="m-ecg" d="M44,150 H120 l10,-10 l8,10 H150 l8,-52 l12,92 l10,-58 l6,18 H236 l10,-12 l10,12 H344" fill="none" stroke="#f87171" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text class="mono p-in" x="404" y="66" font-size="13" font-weight="700" letter-spacing="3" fill="#f87171">01 · FULL-STACK PLATFORM</text>
+  <text class="sans p-in" x="404" y="120" font-size="46" font-weight="800" fill="url(#p-name)" style="animation-delay:.1s">FightBase</text>
+  <g class="p-in" style="animation-delay:.3s">
+    <rect x="1016.8" y="44" width="153.2" height="34" rx="17" fill="#5b6b86" fill-opacity=".1" stroke="#5b6b86" stroke-opacity=".5"/>
+    <rect x="1030.8" y="59" width="12" height="9" rx="2" fill="#5b6b86"/><path d="M1033.3 59v-3a3.5 3.5 0 0 1 7 0v3" fill="none" stroke="#5b6b86" stroke-width="1.8"/>
+    <text class="mono" x="1050.8" y="66" font-size="13" font-weight="700" letter-spacing="1.5" fill="#94a3b8">SOURCE PRIVATE</text>
+  </g>
+  <text class="sans p-in" x="404" y="164" font-size="21" fill="#94a3b8" style="animation-delay:0.3s">Verified MMA fighter profiles, fight records, rankings,</text>
+  <text class="sans p-in" x="404" y="194" font-size="21" fill="#94a3b8" style="animation-delay:0.4s">challenges and real-time notifications.</text>
+  <g class="p-in" style="animation-delay:0.6s">
+      <rect x="404" y="226" width="66" height="30" rx="8" fill="#f87171" fill-opacity=".08" stroke="#f87171" stroke-opacity=".45"/>
+      <text class="mono " x="416 424.4 432.8 441.2 449.6" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">React</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.6s">
+      <rect x="480" y="226" width="57.6" height="30" rx="8" fill="#f87171" fill-opacity=".08" stroke="#f87171" stroke-opacity=".45"/>
+      <text class="mono " x="492 500.4 508.8 517.2" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">Vite</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.7s">
+      <rect x="547.6" y="226" width="82.8" height="30" rx="8" fill="#f87171" fill-opacity=".08" stroke="#f87171" stroke-opacity=".45"/>
+      <text class="mono " x="559.6 568 576.4 584.8 593.2 601.6 610" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">Express</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.8s">
+      <rect x="640.4" y="226" width="74.4" height="30" rx="8" fill="#f87171" fill-opacity=".08" stroke="#f87171" stroke-opacity=".45"/>
+      <text class="mono " x="652.4 660.8 669.2 677.6 686 694.4" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">Prisma</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.8s">
+      <rect x="724.8" y="226" width="108" height="30" rx="8" fill="#f87171" fill-opacity=".08" stroke="#f87171" stroke-opacity=".45"/>
+      <text class="mono " x="736.8 745.2 753.6 762 770.4 778.8 787.2 795.6 804 812.4" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">PostgreSQL</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.9s">
+      <rect x="842.8" y="226" width="99.6" height="30" rx="8" fill="#f87171" fill-opacity=".08" stroke="#f87171" stroke-opacity=".45"/>
+      <text class="mono " x="854.8 863.2 871.6 880 888.4 896.8 905.2 913.6 922" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">Socket.IO</tspan></text>
+    </g>
+  
+  
+  <path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="#1f2a44" stroke-width="1.5"/>
+  <path class="p-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#p-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="472.7 2481.5" style="animation-delay:0s"/>
+  <path class="p-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#p-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="472.7 2481.5" style="animation-delay:-5s" opacity=".7"/>
+</svg>

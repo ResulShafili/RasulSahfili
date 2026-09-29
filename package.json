@@ -1,0 +1,11 @@
+{
+  "name": "resulshafili-profile",
+  "private": true,
+  "description": "Animated cards for the GitHub profile README",
+  "scripts": {
+    "build": "node scripts/build-static.mjs && node scripts/build-stats.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">EduRate</title>
+<desc id="desc">EduRate: Education review platform with a leaderboard and an admin moderation panel, in Azerbaijani, English and Russian. Built with Next.js, i18n AZ · EN · RU, Vercel. Live at edu-rate-nu.vercel.app.</desc>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+.p-beam{stroke-dashoffset:0;animation:p-run 10s linear infinite}
+  @keyframes p-run{to{stroke-dashoffset:-2954.2}}
+      .m-bar{transform-box:fill-box;transform-origin:0 50%;animation:m-bar 5s cubic-bezier(.3,.9,.3,1) infinite}
+      @keyframes m-bar{0%{transform:scaleX(.08)}30%,85%{transform:scaleX(1)}100%{transform:scaleX(.08)}}
+      .m-star{transform-box:fill-box;transform-origin:center;animation:m-star 5s ease-out infinite}
+      @keyframes m-star{0%{opacity:0;transform:scale(.3)}12%,85%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.3)}}
+  .p-in{animation:p-in .6s ease-out both}
+  @keyframes p-in{from{opacity:0;transform:translateY(10px)}}
+  .p-live{transform-box:fill-box;transform-origin:center;animation:p-live 1.6s ease-out infinite}
+  @keyframes p-live{from{transform:scale(1);opacity:.8}to{transform:scale(3);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="p-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1224"/><stop offset="1" stop-color="#060913"/>
+  </linearGradient>
+  <radialGradient id="p-glowA" cx="0" cy="0" r="1">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity=".18"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="p-glowB" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity=".14"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="p-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".05"/>
+  </pattern>
+  <linearGradient id="p-beamA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="300">
+    <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+  <clipPath id="p-clip"><path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z"/></clipPath><linearGradient id="m-bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <linearGradient id="p-name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="520" y2="0" spreadMethod="repeat">
+    <stop offset="0" stop-color="#e6edf7"/><stop offset=".4" stop-color="#e6edf7"/><stop offset=".5" stop-color="#22d3ee"/><stop offset=".6" stop-color="#e6edf7"/><stop offset="1" stop-color="#e6edf7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="520 0" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="p-art" cx=".5" cy=".5" r=".7"><stop offset="0" stop-color="#a78bfa" stop-opacity=".16"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  <clipPath id="p-artclip"><rect x="24" y="24" width="340" height="252" rx="16"/></clipPath></defs>
+<path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="url(#p-bg)"/>
+  <g clip-path="url(#p-clip)">
+    <rect width="1200" height="300" fill="url(#p-dots)"/>
+    <rect width="1200" height="300" fill="url(#p-glowA)"/>
+    <rect width="1200" height="300" fill="url(#p-glowB)"/>
+  </g>
+  <rect x="24" y="24" width="340" height="252" rx="16" fill="#060913" fill-opacity=".6" stroke="#1f2a44"/>
+  <rect x="24" y="24" width="340" height="252" rx="16" fill="url(#p-art)"/>
+  <g clip-path="url(#p-artclip)"><polygon points="124,40 126.9,48 135.4,48.3 128.8,53.5 131.1,61.7 124,57 116.9,61.7 119.2,53.5 112.6,48.3 121.1,48" fill="#1f2a44"/><polygon class="m-star" points="124,40 126.9,48 135.4,48.3 128.8,53.5 131.1,61.7 124,57 116.9,61.7 119.2,53.5 112.6,48.3 121.1,48" fill="#fbbf24" style="animation-delay:0s"/><polygon points="160,40 162.9,48 171.4,48.3 164.8,53.5 167.1,61.7 160,57 152.9,61.7 155.2,53.5 148.6,48.3 157.1,48" fill="#1f2a44"/><polygon class="m-star" points="160,40 162.9,48 171.4,48.3 164.8,53.5 167.1,61.7 160,57 152.9,61.7 155.2,53.5 148.6,48.3 157.1,48" fill="#fbbf24" style="animation-delay:0.2s"/><polygon points="196,40 198.9,48 207.4,48.3 200.8,53.5 203.1,61.7 196,57 188.9,61.7 191.2,53.5 184.6,48.3 193.1,48" fill="#1f2a44"/><polygon class="m-star" points="196,40 198.9,48 207.4,48.3 200.8,53.5 203.1,61.7 196,57 188.9,61.7 191.2,53.5 184.6,48.3 193.1,48" fill="#fbbf24" style="animation-delay:0.4s"/><polygon points="232,40 234.9,48 243.4,48.3 236.8,53.5 239.1,61.7 232,57 224.9,61.7 227.2,53.5 220.6,48.3 229.1,48" fill="#1f2a44"/><polygon class="m-star" points="232,40 234.9,48 243.4,48.3 236.8,53.5 239.1,61.7 232,57 224.9,61.7 227.2,53.5 220.6,48.3 229.1,48" fill="#fbbf24" style="animation-delay:0.7s"/><polygon points="268,40 270.9,48 279.4,48.3 272.8,53.5 275.1,61.7 268,57 260.9,61.7 263.2,53.5 256.6,48.3 265.1,48" fill="#1f2a44"/><polygon class="m-star" points="268,40 270.9,48 279.4,48.3 272.8,53.5 275.1,61.7 268,57 260.9,61.7 263.2,53.5 256.6,48.3 265.1,48" fill="#fbbf24" style="animation-delay:0.9s"/><circle cx="70" cy="92" r="12" fill="#22d3ee" stroke="#22d3ee"/>
+        <text class="mono" x="70" y="97" text-anchor="middle" font-size="13" font-weight="700" fill="#060913">1</text>
+        <rect x="94" y="83" width="206" height="18" rx="9" fill="#131c33"/>
+        <rect class="m-bar" x="94" y="83" width="196" height="18" rx="9" fill="url(#m-bar)" style="animation-delay:0s"/><circle cx="70" cy="126" r="12" fill="#131c33" stroke="#1f2a44"/>
+        <text class="mono" x="70" y="131" text-anchor="middle" font-size="13" font-weight="700" fill="#94a3b8">2</text>
+        <rect x="94" y="117" width="206" height="18" rx="9" fill="#131c33"/>
+        <rect class="m-bar" x="94" y="117" width="168" height="18" rx="9" fill="url(#m-bar)" style="animation-delay:0.2s"/><circle cx="70" cy="160" r="12" fill="#131c33" stroke="#1f2a44"/>
+        <text class="mono" x="70" y="165" text-anchor="middle" font-size="13" font-weight="700" fill="#94a3b8">3</text>
+        <rect x="94" y="151" width="206" height="18" rx="9" fill="#131c33"/>
+        <rect class="m-bar" x="94" y="151" width="140" height="18" rx="9" fill="url(#m-bar)" style="animation-delay:0.4s"/><circle cx="70" cy="194" r="12" fill="#131c33" stroke="#1f2a44"/>
+        <text class="mono" x="70" y="199" text-anchor="middle" font-size="13" font-weight="700" fill="#94a3b8">4</text>
+        <rect x="94" y="185" width="206" height="18" rx="9" fill="#131c33"/>
+        <rect class="m-bar" x="94" y="185" width="114" height="18" rx="9" fill="url(#m-bar)" style="animation-delay:0.5s"/><circle cx="70" cy="228" r="12" fill="#131c33" stroke="#1f2a44"/>
+        <text class="mono" x="70" y="233" text-anchor="middle" font-size="13" font-weight="700" fill="#94a3b8">5</text>
+        <rect x="94" y="219" width="206" height="18" rx="9" fill="#131c33"/>
+        <rect class="m-bar" x="94" y="219" width="88" height="18" rx="9" fill="url(#m-bar)" style="animation-delay:0.7s"/></g>
+  <text class="mono p-in" x="404" y="66" font-size="13" font-weight="700" letter-spacing="3" fill="#a78bfa">02 · REVIEW PLATFORM</text>
+  <text class="sans p-in" x="404" y="120" font-size="46" font-weight="800" fill="url(#p-name)" style="animation-delay:.1s">EduRate</text>
+  <g class="p-in" style="animation-delay:.3s">
+    <rect x="1094.8" y="44" width="75.2" height="34" rx="17" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".5"/>
+    <circle class="p-live" cx="1114.8" cy="61" r="5" fill="#34d399"/><circle cx="1114.8" cy="61" r="5" fill="#34d399"/>
+    <text class="mono" x="1128.8" y="66" font-size="13" font-weight="700" letter-spacing="1.5" fill="#34d399">LIVE</text>
+  </g>
+  <text class="sans p-in" x="404" y="164" font-size="21" fill="#94a3b8" style="animation-delay:0.3s">Education review platform with a leaderboard and an admin</text>
+  <text class="sans p-in" x="404" y="194" font-size="21" fill="#94a3b8" style="animation-delay:0.4s">moderation panel, in Azerbaijani, English and Russian.</text>
+  <g class="p-in" style="animation-delay:0.6s">
+      <rect x="404" y="226" width="82.8" height="30" rx="8" fill="#a78bfa" fill-opacity=".08" stroke="#a78bfa" stroke-opacity=".45"/>
+      <text class="mono " x="416 424.4 432.8 441.2 449.6 458 466.4" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">Next.js</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.6s">
+      <rect x="496.8" y="226" width="166.8" height="30" rx="8" fill="#a78bfa" fill-opacity=".08" stroke="#a78bfa" stroke-opacity=".45"/>
+      <text class="mono " x="508.8 517.2 525.6 534 542.4 550.8 559.2 567.6 576 584.4 592.8 601.2 609.6 618 626.4 634.8 643.2" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">i18n AZ · EN · RU</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.7s">
+      <rect x="673.6" y="226" width="74.4" height="30" rx="8" fill="#a78bfa" fill-opacity=".08" stroke="#a78bfa" stroke-opacity=".45"/>
+      <text class="mono " x="685.6 694 702.4 710.8 719.2 727.6" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">Vercel</tspan></text>
+    </g>
+  <text class="mono p-in" x="1170" y="247" text-anchor="end" font-size="15" fill="#22d3ee" style="animation-delay:.9s">↗ edu-rate-nu.vercel.app</text>
+  
+  <path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="#1f2a44" stroke-width="1.5"/>
+  <path class="p-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#p-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="472.7 2481.5" style="animation-delay:0s"/>
+  <path class="p-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#p-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="472.7 2481.5" style="animation-delay:-5s" opacity=".7"/>
+</svg>

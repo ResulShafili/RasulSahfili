@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">About me</title>
+<desc id="desc">Rasul Shafili — Computer Engineering student at Karabakh University. AI training: evaluating and ranking model responses on image and video; Data: cleaning and structuring data, analysis with SQL and Python; Web: full-stack apps with React, Node.js, Express and PostgreSQL. Azerbaijani · Turkish · English. building data projects</desc>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+.t-beam{stroke-dashoffset:0;animation:t-run 12s linear infinite}
+  @keyframes t-run{to{stroke-dashoffset:-3477.7}}
+  .t-in{animation:t-in .3s ease-out both}
+  @keyframes t-in{from{opacity:0;transform:translateY(6px)}}
+  .t-cursor{animation:t-blink 1s steps(1) infinite}
+  @keyframes t-blink{50%{opacity:0}}
+  .t-pulse{transform-box:fill-box;transform-origin:center;animation:t-pulse 1.8s ease-in-out infinite}
+  @keyframes t-pulse{50%{transform:scale(.55);opacity:.5}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="t-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1224"/><stop offset="1" stop-color="#060913"/>
+  </linearGradient>
+  <radialGradient id="t-glowA" cx="0" cy="0" r="1">
+    <stop offset="0" stop-color="#34d399" stop-opacity=".18"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="t-glowB" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity=".14"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="t-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".05"/>
+  </pattern>
+  <linearGradient id="t-beamA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="560">
+    <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+  <clipPath id="t-clip"><path d="M21,1 H1179 A20,20 0 0 1 1199,21 V539 A20,20 0 0 1 1179,559 H21 A20,20 0 0 1 1,539 V21 A20,20 0 0 1 21,1 Z"/></clipPath><clipPath id="t-cmd0"><rect x="246" y="80" height="34" width="76"><animate attributeName="width" dur="1.31s" calcMode="discrete" keyTimes="0;0.706;0.763;0.821;0.878;0.935;0.992" values="0;14;26;38;50;62;74" fill="freeze"/></rect></clipPath><clipPath id="t-cmd1"><rect x="246" y="166" height="34" width="148"><animate attributeName="width" dur="3.5s" calcMode="discrete" keyTimes="0;0.761;0.783;0.804;0.826;0.847;0.869;0.89;0.911;0.933;0.954;0.976;0.997" values="0;14;26;38;50;62;74;86;98;110;122;134;146" fill="freeze"/></rect></clipPath><clipPath id="t-cmd2"><rect x="246" y="324" height="34" width="208"><animate attributeName="width" dur="6.345s" calcMode="discrete" keyTimes="0;0.809;0.821;0.833;0.845;0.857;0.868;0.88;0.892;0.904;0.916;0.928;0.939;0.951;0.963;0.975;0.987;0.998" values="0;14;26;38;50;62;74;86;98;110;122;134;146;158;170;182;194;206" fill="freeze"/></rect></clipPath><clipPath id="t-cmd3"><rect x="246" y="410" height="34" width="112"><animate attributeName="width" dur="8.31s" calcMode="discrete" keyTimes="0;0.927;0.936;0.945;0.954;0.963;0.972;0.981;0.99;0.999" values="0;14;26;38;50;62;74;86;98;110" fill="freeze"/></rect></clipPath></defs>
+<path d="M21,1 H1179 A20,20 0 0 1 1199,21 V539 A20,20 0 0 1 1179,559 H21 A20,20 0 0 1 1,539 V21 A20,20 0 0 1 21,1 Z" fill="url(#t-bg)"/>
+  <g clip-path="url(#t-clip)">
+    <rect width="1200" height="560" fill="url(#t-dots)"/>
+    <rect width="1200" height="560" fill="url(#t-glowA)"/>
+    <rect width="1200" height="560" fill="url(#t-glowB)"/>
+  </g>
+  <g clip-path="url(#t-clip)">
+    <rect width="1200" height="54" fill="#131c33" fill-opacity=".9"/>
+    <line x1="0" y1="54" x2="1200" y2="54" stroke="#1f2a44"/>
+  </g>
+  <circle cx="34" cy="27" r="7" fill="#ff5f57"/><circle cx="58" cy="27" r="7" fill="#febc2e"/><circle cx="82" cy="27" r="7" fill="#28c840"/>
+  <text class="mono" x="600" y="32" text-anchor="middle" font-size="14" fill="#5b6b86">rasul@github: ~ — zsh</text>
+  <line x1="944" y1="80" x2="944" y2="530" stroke="#1f2a44" stroke-dasharray="3 5"/>
+  <g class="t-in" style="animation-delay:0.5s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236" y="104" font-size="20" xml:space="preserve" ><tspan fill="#34d399" font-weight="700">rasul</tspan><tspan fill="#34d399">@github</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#22d3ee" font-weight="700">~</tspan><tspan fill="#94a3b8"> $ </tspan></text></g><g clip-path="url(#t-cmd0)"><text class="mono " x="248 260 272 284 296 308" y="104" font-size="20" xml:space="preserve" ><tspan fill="#e6edf7">whoami</tspan></text></g><g class="t-in" style="animation-delay:1.7s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236 248 260 272 284 296 308 320 332 344 356 368 380 392 404 416 428 440 452 464 476 488 500 512 524 536 548 560 572 584 596 608 620 632 644 656 668 680 692 704 716 728 740 752 764 776 788 800 812 824 836" y="140" font-size="20" xml:space="preserve" ><tspan fill="#e6edf7" font-weight="700">Rasul Shafili</tspan><tspan fill="#94a3b8"> — Computer Engineering student at Karabakh University</tspan></text></g><g class="t-in" style="animation-delay:2.2s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236" y="190" font-size="20" xml:space="preserve" ><tspan fill="#34d399" font-weight="700">rasul</tspan><tspan fill="#34d399">@github</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#22d3ee" font-weight="700">~</tspan><tspan fill="#94a3b8"> $ </tspan></text></g><g clip-path="url(#t-cmd1)"><text class="mono " x="248 260 272 284 296 308 320 332 344 356 368 380" y="190" font-size="20" xml:space="preserve" ><tspan fill="#e6edf7">cat focus.md</tspan></text></g><g class="t-in" style="animation-delay:3.8s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236 248 260 272 284 296 308 320 332 344 356 368 380 392 404 416 428 440 452 464 476 488 500 512 524 536 548 560 572 584 596 608 620 632 644 656 668 680 692 704 716 728 740 752 764 776 788 800 812 824 836 848 860 872 884 896" y="226" font-size="20" xml:space="preserve" ><tspan fill="#22d3ee">◆ </tspan><tspan fill="#e6edf7">AI training  </tspan><tspan fill="#94a3b8">evaluating and ranking model responses on image and video</tspan></text></g><g class="t-in" style="animation-delay:4s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236 248 260 272 284 296 308 320 332 344 356 368 380 392 404 416 428 440 452 464 476 488 500 512 524 536 548 560 572 584 596 608 620 632 644 656 668 680 692 704 716 728 740 752 764 776 788 800 812 824 836 848 860 872 884 896 908 920" y="262" font-size="20" xml:space="preserve" ><tspan fill="#a78bfa">◆ </tspan><tspan fill="#e6edf7">Data         </tspan><tspan fill="#94a3b8">cleaning and structuring data, analysis with SQL and Python</tspan></text></g><g class="t-in" style="animation-delay:4.1s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236 248 260 272 284 296 308 320 332 344 356 368 380 392 404 416 428 440 452 464 476 488 500 512 524 536 548 560 572 584 596 608 620 632 644 656 668 680 692 704 716 728 740 752 764 776 788 800 812 824 836 848 860 872 884 896 908 920" y="298" font-size="20" xml:space="preserve" ><tspan fill="#f472b6">◆ </tspan><tspan fill="#e6edf7">Web          </tspan><tspan fill="#94a3b8">full-stack apps with React, Node.js, Express and PostgreSQL</tspan></text></g><g class="t-in" style="animation-delay:4.7s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236" y="348" font-size="20" xml:space="preserve" ><tspan fill="#34d399" font-weight="700">rasul</tspan><tspan fill="#34d399">@github</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#22d3ee" font-weight="700">~</tspan><tspan fill="#94a3b8"> $ </tspan></text></g><g clip-path="url(#t-cmd2)"><text class="mono " x="248 260 272 284 296 308 320 332 344 356 368 380 392 404 416 428 440" y="348" font-size="20" xml:space="preserve" ><tspan fill="#e6edf7">cat languages.txt</tspan></text></g><g class="t-in" style="animation-delay:6.7s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236 248 260 272 284 296 308 320 332 344 356 368 380 392 404" y="384" font-size="20" xml:space="preserve" ><tspan fill="#94a3b8">Azerbaijani · Turkish · English</tspan></text></g><g class="t-in" style="animation-delay:7.3s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236" y="434" font-size="20" xml:space="preserve" ><tspan fill="#34d399" font-weight="700">rasul</tspan><tspan fill="#34d399">@github</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#22d3ee" font-weight="700">~</tspan><tspan fill="#94a3b8"> $ </tspan></text></g><g clip-path="url(#t-cmd3)"><text class="mono " x="248 260 272 284 296 308 320 332 344" y="434" font-size="20" xml:space="preserve" ><tspan fill="#e6edf7">echo $NOW</tspan></text></g><g class="t-in" style="animation-delay:8.6s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236 248 260 272 284 296" y="470" font-size="20" xml:space="preserve" ><tspan fill="#34d399">building data projects</tspan></text></g><g class="t-in" style="animation-delay:9.2s"><text class="mono " x="44 56 68 80 92 104 116 128 140 152 164 176 188 200 212 224 236" y="520" font-size="20" xml:space="preserve" ><tspan fill="#34d399" font-weight="700">rasul</tspan><tspan fill="#34d399">@github</tspan><tspan fill="#94a3b8">:</tspan><tspan fill="#22d3ee" font-weight="700">~</tspan><tspan fill="#94a3b8"> $ </tspan></text></g>
+  <rect class="t-cursor" x="248" y="503" width="11" height="22" rx="1.5" fill="#22d3ee">
+    <animate attributeName="x" dur="9.25s" calcMode="discrete" keyTimes="0;0.054;0.1;0.108;0.116;0.124;0.132;0.141;0.242;0.288;0.296;0.304;0.312;0.321;0.329;0.337;0.345;0.353;0.361;0.369;0.377;0.509;0.555;0.563;0.571;0.579;0.588;0.596;0.604;0.612;0.62;0.628;0.636;0.644;0.652;0.661;0.669;0.677;0.685;0.786;0.832;0.841;0.849;0.857;0.865;0.873;0.881;0.889;0.897;0.999" values="248;248;262;274;286;298;310;322;248;262;274;286;298;310;322;334;346;358;370;382;394;248;262;274;286;298;310;322;334;346;358;370;382;394;406;418;430;442;454;248;262;274;286;298;310;322;334;346;358;248" fill="freeze"/><animate attributeName="y" dur="9.25s" calcMode="discrete" keyTimes="0;0.054;0.1;0.108;0.116;0.124;0.132;0.141;0.242;0.288;0.296;0.304;0.312;0.321;0.329;0.337;0.345;0.353;0.361;0.369;0.377;0.509;0.555;0.563;0.571;0.579;0.588;0.596;0.604;0.612;0.62;0.628;0.636;0.644;0.652;0.661;0.669;0.677;0.685;0.786;0.832;0.841;0.849;0.857;0.865;0.873;0.881;0.889;0.897;0.999" values="87;87;87;87;87;87;87;87;173;173;173;173;173;173;173;173;173;173;173;173;173;331;331;331;331;331;331;331;331;331;331;331;331;331;331;331;331;331;331;417;417;417;417;417;417;417;417;417;417;503" fill="freeze"/></rect>
+  <g class="t-in" style="animation-delay:9.4s">
+      <text class="mono" x="968" y="110" font-size="12" fill="#5b6b86" letter-spacing="2">STATUS</text>
+      <circle class="t-pulse" cx="974" cy="128" r="4" fill="#34d399" style="animation-delay:-0s"/>
+      <text class="mono" x="986" y="133" font-size="15" fill="#e6edf7">learning</text>
+    </g><g class="t-in" style="animation-delay:9.6s">
+      <text class="mono" x="968" y="156" font-size="12" fill="#5b6b86" letter-spacing="2">FOCUS</text>
+      <circle class="t-pulse" cx="974" cy="174" r="4" fill="#a78bfa" style="animation-delay:-0.6s"/>
+      <text class="mono" x="986" y="179" font-size="15" fill="#e6edf7">AI · Data · Web</text>
+    </g><g class="t-in" style="animation-delay:9.7s">
+      <text class="mono" x="968" y="202" font-size="12" fill="#5b6b86" letter-spacing="2">TIMEZONE</text>
+      <circle class="t-pulse" cx="974" cy="220" r="4" fill="#22d3ee" style="animation-delay:-1.2s"/>
+      <text class="mono" x="986" y="225" font-size="15" fill="#e6edf7">UTC+4</text>
+    </g>
+  
+  <path d="M21,1 H1179 A20,20 0 0 1 1199,21 V539 A20,20 0 0 1 1179,559 H21 A20,20 0 0 1 1,539 V21 A20,20 0 0 1 21,1 Z" fill="none" stroke="#1f2a44" stroke-width="1.5"/>
+  <path class="t-beam" d="M21,1 H1179 A20,20 0 0 1 1199,21 V539 A20,20 0 0 1 1179,559 H21 A20,20 0 0 1 1,539 V21 A20,20 0 0 1 21,1 Z" fill="none" stroke="url(#t-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="556.4 2921.3" style="animation-delay:0s"/>
+  <path class="t-beam" d="M21,1 H1179 A20,20 0 0 1 1199,21 V539 A20,20 0 0 1 1179,559 H21 A20,20 0 0 1 1,539 V21 A20,20 0 0 1 21,1 Z" fill="none" stroke="url(#t-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="556.4 2921.3" style="animation-delay:-6s" opacity=".7"/>
+</svg>

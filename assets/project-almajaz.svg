@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Al-Majaz</title>
+<desc id="desc">Al-Majaz: Flood and emergency response dashboard for the Al-Majaz district of Sharjah, UAE, on a live map. Built with React, TypeScript, Mapbox GL, FastAPI. Live at uae-project-steel.vercel.app.</desc>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+.p-beam{stroke-dashoffset:0;animation:p-run 10s linear infinite}
+  @keyframes p-run{to{stroke-dashoffset:-2954.2}}
+    .m-sweep{transform-origin:194px 150px;animation:m-spin 4s linear infinite}
+    @keyframes m-spin{to{transform:rotate(360deg)}}
+    .m-blip{opacity:.15;animation:m-blip 4s ease-out infinite}
+    @keyframes m-blip{0%{opacity:1}70%,100%{opacity:.15}}
+    .m-blipring{opacity:0;transform-box:fill-box;transform-origin:center;animation:m-ring 4s ease-out infinite}
+    @keyframes m-ring{0%{opacity:.9;transform:scale(1)}30%,100%{opacity:0;transform:scale(3.5)}}
+  .p-in{animation:p-in .6s ease-out both}
+  @keyframes p-in{from{opacity:0;transform:translateY(10px)}}
+  .p-live{transform-box:fill-box;transform-origin:center;animation:p-live 1.6s ease-out infinite}
+  @keyframes p-live{from{transform:scale(1);opacity:.8}to{transform:scale(3);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="p-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0c1224"/><stop offset="1" stop-color="#060913"/>
+  </linearGradient>
+  <radialGradient id="p-glowA" cx="0" cy="0" r="1">
+    <stop offset="0" stop-color="#34d399" stop-opacity=".18"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="p-glowB" cx="1" cy="1" r="1">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity=".14"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="p-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".05"/>
+  </pattern>
+  <linearGradient id="p-beamA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="300">
+    <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+  <clipPath id="p-clip"><path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z"/></clipPath>
+  <linearGradient id="p-name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="520" y2="0" spreadMethod="repeat">
+    <stop offset="0" stop-color="#e6edf7"/><stop offset=".4" stop-color="#e6edf7"/><stop offset=".5" stop-color="#22d3ee"/><stop offset=".6" stop-color="#e6edf7"/><stop offset="1" stop-color="#e6edf7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="520 0" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="p-art" cx=".5" cy=".5" r=".7"><stop offset="0" stop-color="#34d399" stop-opacity=".16"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+  <clipPath id="p-artclip"><rect x="24" y="24" width="340" height="252" rx="16"/></clipPath></defs>
+<path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="url(#p-bg)"/>
+  <g clip-path="url(#p-clip)">
+    <rect width="1200" height="300" fill="url(#p-dots)"/>
+    <rect width="1200" height="300" fill="url(#p-glowA)"/>
+    <rect width="1200" height="300" fill="url(#p-glowB)"/>
+  </g>
+  <rect x="24" y="24" width="340" height="252" rx="16" fill="#060913" fill-opacity=".6" stroke="#1f2a44"/>
+  <rect x="24" y="24" width="340" height="252" rx="16" fill="url(#p-art)"/>
+  <g clip-path="url(#p-artclip)">
+    <circle cx="194" cy="150" r="36" fill="none" stroke="#34d399" stroke-opacity=".25"/><circle cx="194" cy="150" r="72" fill="none" stroke="#34d399" stroke-opacity=".25"/><circle cx="194" cy="150" r="108" fill="none" stroke="#34d399" stroke-opacity=".25"/>
+    <line x1="76" y1="150" x2="312" y2="150" stroke="#34d399" stroke-opacity=".18"/>
+    <line x1="194" y1="32" x2="194" y2="268" stroke="#34d399" stroke-opacity=".18"/>
+    <g class="m-sweep"><path d="M194,150 L301.6,140.6 A108,108 0 0 1 302,150 Z" fill="#34d399" fill-opacity="0.4"/><path d="M194,150 L300.4,131.2 A108,108 0 0 1 301.6,140.6 Z" fill="#34d399" fill-opacity="0.4"/><path d="M194,150 L298.3,122 A108,108 0 0 1 300.4,131.2 Z" fill="#34d399" fill-opacity="0.3"/><path d="M194,150 L295.5,113.1 A108,108 0 0 1 298.3,122 Z" fill="#34d399" fill-opacity="0.3"/><path d="M194,150 L291.9,104.4 A108,108 0 0 1 295.5,113.1 Z" fill="#34d399" fill-opacity="0.3"/><path d="M194,150 L287.5,96 A108,108 0 0 1 291.9,104.4 Z" fill="#34d399" fill-opacity="0.2"/><path d="M194,150 L282.5,88.1 A108,108 0 0 1 287.5,96 Z" fill="#34d399" fill-opacity="0.2"/><path d="M194,150 L276.7,80.6 A108,108 0 0 1 282.5,88.1 Z" fill="#34d399" fill-opacity="0.1"/><path d="M194,150 L270.4,73.6 A108,108 0 0 1 276.7,80.6 Z" fill="#34d399" fill-opacity="0.1"/><path d="M194,150 L263.4,67.3 A108,108 0 0 1 270.4,73.6 Z" fill="#34d399" fill-opacity="0.1"/><line x1="194" y1="150" x2="302" y2="150" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round"/></g>
+    <circle class="m-blipring" cx="241.5" cy="189.9" r="5" fill="none" stroke="#f87171" stroke-width="1.5" style="animation-delay:0.4s"/>
+      <circle class="m-blip" cx="241.5" cy="189.9" r="4.5" fill="#f87171" style="animation-delay:0.4s"/><circle class="m-blipring" cx="154.6" cy="224.2" r="5" fill="none" stroke="#fbbf24" stroke-width="1.5" style="animation-delay:1.3s"/>
+      <circle class="m-blip" cx="154.6" cy="224.2" r="4.5" fill="#fbbf24" style="animation-delay:1.3s"/><circle class="m-blipring" cx="150.5" cy="129.7" r="5" fill="none" stroke="#f87171" stroke-width="1.5" style="animation-delay:2.3s"/>
+      <circle class="m-blip" cx="150.5" cy="129.7" r="4.5" fill="#f87171" style="animation-delay:2.3s"/><circle class="m-blipring" cx="181.2" cy="58.9" r="5" fill="none" stroke="#fbbf24" stroke-width="1.5" style="animation-delay:2.9s"/>
+      <circle class="m-blip" cx="181.2" cy="58.9" r="4.5" fill="#fbbf24" style="animation-delay:2.9s"/><circle class="m-blipring" cx="247.6" cy="105" r="5" fill="none" stroke="#f87171" stroke-width="1.5" style="animation-delay:3.6s"/>
+      <circle class="m-blip" cx="247.6" cy="105" r="4.5" fill="#f87171" style="animation-delay:3.6s"/>
+    <circle cx="194" cy="150" r="5" fill="#22d3ee"/></g>
+  <text class="mono p-in" x="404" y="66" font-size="13" font-weight="700" letter-spacing="3" fill="#34d399">03 · EMERGENCY RESPONSE</text>
+  <text class="sans p-in" x="404" y="120" font-size="46" font-weight="800" fill="url(#p-name)" style="animation-delay:.1s">Al-Majaz</text>
+  <g class="p-in" style="animation-delay:.3s">
+    <rect x="1094.8" y="44" width="75.2" height="34" rx="17" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".5"/>
+    <circle class="p-live" cx="1114.8" cy="61" r="5" fill="#34d399"/><circle cx="1114.8" cy="61" r="5" fill="#34d399"/>
+    <text class="mono" x="1128.8" y="66" font-size="13" font-weight="700" letter-spacing="1.5" fill="#34d399">LIVE</text>
+  </g>
+  <text class="sans p-in" x="404" y="164" font-size="21" fill="#94a3b8" style="animation-delay:0.3s">Flood and emergency response dashboard for the</text>
+  <text class="sans p-in" x="404" y="194" font-size="21" fill="#94a3b8" style="animation-delay:0.4s">Al-Majaz district of Sharjah, UAE, on a live map.</text>
+  <g class="p-in" style="animation-delay:0.6s">
+      <rect x="404" y="226" width="66" height="30" rx="8" fill="#34d399" fill-opacity=".08" stroke="#34d399" stroke-opacity=".45"/>
+      <text class="mono " x="416 424.4 432.8 441.2 449.6" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">React</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.6s">
+      <rect x="480" y="226" width="108" height="30" rx="8" fill="#34d399" fill-opacity=".08" stroke="#34d399" stroke-opacity=".45"/>
+      <text class="mono " x="492 500.4 508.8 517.2 525.6 534 542.4 550.8 559.2 567.6" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">TypeScript</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.7s">
+      <rect x="598" y="226" width="99.6" height="30" rx="8" fill="#34d399" fill-opacity=".08" stroke="#34d399" stroke-opacity=".45"/>
+      <text class="mono " x="610 618.4 626.8 635.2 643.6 652 660.4 668.8 677.2" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">Mapbox GL</tspan></text>
+    </g><g class="p-in" style="animation-delay:0.8s">
+      <rect x="707.6" y="226" width="82.8" height="30" rx="8" fill="#34d399" fill-opacity=".08" stroke="#34d399" stroke-opacity=".45"/>
+      <text class="mono " x="719.6 728 736.4 744.8 753.2 761.6 770" y="246" font-size="14" xml:space="preserve" ><tspan fill="#e6edf7">FastAPI</tspan></text>
+    </g>
+  <text class="mono p-in" x="1170" y="247" text-anchor="end" font-size="15" fill="#22d3ee" style="animation-delay:.9s">↗ uae-project-steel.vercel.app</text>
+  
+  <path d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="#1f2a44" stroke-width="1.5"/>
+  <path class="p-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#p-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="472.7 2481.5" style="animation-delay:0s"/>
+  <path class="p-beam" d="M23,1 H1177 A22,22 0 0 1 1199,23 V277 A22,22 0 0 1 1177,299 H23 A22,22 0 0 1 1,277 V23 A22,22 0 0 1 23,1 Z" fill="none" stroke="url(#p-beamA)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="472.7 2481.5" style="animation-delay:-5s" opacity=".7"/>
+</svg>
